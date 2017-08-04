@@ -12,7 +12,7 @@
  */
 
 function disable_wp_rocket_cache_members_init() {
-	if ( is_user_logged_in() ) {
+	if ( ! is_admin() && is_user_logged_in() ) {
 		add_filter( 'do_rocket_generate_caching_files', '__return_false' );
 	}
 }
