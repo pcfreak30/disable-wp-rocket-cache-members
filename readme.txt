@@ -27,4 +27,8 @@ This section describes how to install the plugin and get it working.
 
 ### 0.1.0 ###
 
+* Bug: Don't run on admin
+
+### 0.1.0 ###
+
 * Initial version
